@@ -1,0 +1,44 @@
+{% extends "home/index.html" %}
+{% load static %}
+
+{% block my_blog_title %}
+Course list
+{% endblock %}
+
+{% block my_blog_header %}
+<header class="masthead" style="background-image: url('/static/home/assets/img/about-bg.jpg')">
+    <div class="container position-relative px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+            <div class="col-md-15 col-lg-16 col-xl-14">
+                <div class="site-heading">
+                    <h1>Listado de cursos</h1>
+                    <span class="subheading">Blog Interno de Profesores</span>
+                </div>
+            </div>
+        </div>
+        <a class="button_custom" href="{% url 'course:course-add' %}">Crear nuevo Curso</a>
+    </div>
+</header>
+{% endblock %}
+
+
+{% block my_blog_content %}
+    {% for course in course_list %}
+        <!-- Post preview-->
+        <div class="post-preview">
+            <a href="{% url 'course:course-detail' course.id %}">
+                <h2 class="post-title">Este es el curso de {{ course.name }}</h2>
+                <h3 class="post-subtitle">Que tiene el código: {{ course.code }}</h3>
+            </a>
+            <p class="post-meta">
+                Creado por
+                <span style="color: #0b4956;" href="">{{ course.owner.username }}</span>
+                ( {{ course.created_at }} )
+            </p>
+        </div>
+        <!-- Divider-->
+        <hr class="my-4" />
+    {% endfor %}
+{% endblock %}
+
+
