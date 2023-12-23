@@ -27,6 +27,8 @@ def index(request):
         template_name="home/index.html",
     )
 
+def about_page(request):
+    return render(request, 'home/about.html')
 
 def search(request):
     search_param = request.GET["search_param"]
