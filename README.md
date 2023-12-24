@@ -5,7 +5,7 @@ Es un proyecto diseñado tipo blog para que los  Profesores  puedan tener un esp
 
 # Creadores Brian Trias | Matias Ricci  
 
-# Video En youtube
+# Video del proyecto en YouTube
 
   https://youtu.be/f4sXKyFinuI?si=2LQUaa7ZtPvGHfjY
 
