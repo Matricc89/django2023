@@ -1,7 +1,7 @@
 # blogPython
 
 
-Es un proyecto diseñado tipo blog para que los  Profesores  puedan tener un espacio donde poner algun curso, Referir algun curso, comentar sobre algun post tanto estudiante como profesor, tiene rol de admin que puede borrar cualquier post o editarlo. Podes subir una foto a tu perfil.
+``` Es un proyecto diseñado tipo blog para que los  Profesores  puedan tener un espacio donde poner algun curso,  Referir algun curso, comentar sobre algun post tanto estudiante como profesor, tiene rol de admin que puede borrar cualquier post o editarlo. Podes subir una foto a tu perfil.```
 
 # Creadores Brian Trias | Matias Ricci  
 
