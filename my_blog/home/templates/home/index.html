@@ -41,6 +41,14 @@
                         
                         <div class="topbar-divider d-none d-sm-block"></div>
                        
+                        {% if avatar_url %}
+                        <li class="nav-item">
+                            <a href="{% url 'home:avatar-load' %}">
+                                <img height="50px" style="border-radius: 50%;" src="{{avatar_url}}" alt="Avatar">
+                            </a>
+                        </li>
+                        {% endif %}
+                
                         {% if user.is_authenticated %}
                         <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="{% url 'home:user-update' %}">Editar usuario</a></li>
                         <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="{% url 'logout' %}">Cerrar Sesión - {{ user.username }}</a></li>
