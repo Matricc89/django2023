@@ -11,6 +11,7 @@
 
 # Instrucciones para ejecutar este proyecto
 
+0. Verificar que la **version de Pillow** que sea compatible con la version de python que tengan instalada. (sino van a tener un error 405 cuando quieran cerrar sesion). ``` Esta Version de Python 3.11.5 es compatible con la version de Pillow==9.3.0, y la version de python 3.12.0 es compatible con la version de Pillow 10.1.0 ```
 
 1. Crear y activar entorno virtual
 
