@@ -7,7 +7,7 @@
 
 # Video del proyecto en YouTube
 
-  https://youtu.be/f4sXKyFinuI?si=2LQUaa7ZtPvGHfjY
+ - **Link:** https://youtu.be/f4sXKyFinuI?si=2LQUaa7ZtPvGHfjY
 
 # Instrucciones para ejecutar este proyecto
 
