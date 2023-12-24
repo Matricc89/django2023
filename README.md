@@ -66,6 +66,5 @@ Es un proyecto diseñado tipo blog para que los  Profesores  puedan tener un esp
     python manage.py runserver
     ```
 
-    Es hora de ir al navegador y en una pestaña nueva navegar hacia [http://127.0.0.1:8000/hello-world/](http://127.0.0.1:8000/hello-world/) o [http://localhost:8000/hello-world/](http://localhost:8000/hello-world/) para visualizar el "Hola Mundo" que hicimos durante la clase. Se recomienda explorar los demás endpoints (ver `my_blog/urls.py`) creados durante la clase para experimentar con ellos y afianzar los conocimientos vistos.
-
+    Es hora de ir al navegador y en una pestaña nueva navegar hacia "http://127.0.0.1:8000"
 
